@@ -1,0 +1,19 @@
+@-moz-document domain("usatoday.com") {
+    .gnt_ft_a,
+    .gnt_ar_b,
+    .gnt_ft_ls::before,
+    .gnt_ft_cr,
+    .gnt_m_fs,
+    .gnt_ar_dt,
+    .gnt_n_sm_a,
+    .gnt_ar_fyt_t {
+        font-family: var(--font-body);
+    }
+
+    .gnt_n_fl_l,
+    .gnt_ar_hl,
+    .gnt_ar_by_a,
+    .gnt_ar_b_mt {
+        font-family: var(--font-heading);
+    }
+}

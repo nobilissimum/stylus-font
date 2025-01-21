@@ -1,0 +1,11 @@
+@-moz-document domain("udemy.com") {
+    .ud-text-md,
+    .ud-heading-md,
+    .ud-heading-serif-xxxl {
+        font-family: var(--font-heading);
+    }
+
+    .ud-text-sm {
+        font-family: var(--font-body);
+    }
+}

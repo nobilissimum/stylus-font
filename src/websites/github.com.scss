@@ -1,0 +1,31 @@
+@-moz-document domain("github.com") {
+    .markdown-body code,
+    .markdown-body tt,
+    .branch-name,
+    .blob-num,
+    .file-info,
+    .file-info a,
+    .commit-ref,
+    .commit-ref span,
+    .react-code-text,
+    .react-code-lines,
+    .react-code-lines span,
+    .react-code-lines div {
+        font-family: var(--font-mono);
+    }
+
+    .react-blob-print-hide {
+        font-family: var(--font-mono) !important;
+    }
+
+    .text-mono,
+    .text-mono span,
+    .blob-code-inner,
+    .blob-code-inner span {
+        font-family: var(--font-mono) !important;
+    }
+
+    .markdown-body {
+        font-family: var(--font-body);
+    }
+}

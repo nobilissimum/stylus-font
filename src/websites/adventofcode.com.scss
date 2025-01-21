@@ -1,0 +1,37 @@
+@-moz-document domain("adventofcode.com") {
+    html,
+    body,
+    div,
+    select,
+    span,
+    label,
+    input,
+    textfield,
+    section,
+    nav,
+    a,
+    ul,
+    li,
+    button,
+    text,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    title,
+    code,
+    pre,
+    samp,
+    kbd,
+    tt,
+    code span,
+    pre span,
+    samp span,
+    kbd span,
+    tt span {
+        font-family: var(--font-mono);
+        font-size: 1rem;
+    }
+}

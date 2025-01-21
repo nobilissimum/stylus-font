@@ -1,0 +1,10 @@
+@-moz-document domain("leetcode.com") {
+    .monaco-editor,
+    .monaco-mouse-cursor-text {
+        & .line-numbers,
+        & div,
+        & span {
+            font-family: var(--font-mono);
+        }
+    }
+}

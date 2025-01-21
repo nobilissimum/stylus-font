@@ -1,0 +1,24 @@
+@-moz-document domain("clngdbkpkpeebahjckkjfobafhncgmne"), url-prefix("extension://clngdbkpkpeebahjckkjfobafhncgmne") {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+        font-family: var(--font-body);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    title,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    .title {
+        font-family: var(--font-heading);
+    }
+}

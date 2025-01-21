@@ -1,0 +1,12 @@
+@-moz-document domain("claude.ai") {
+    :root {
+        --font-user-message: var(--font-body);
+        --font-styrene-a: var(--font-body);
+    }
+
+    .font-tiempos,
+    .font-user-message,
+    .font-styrene-display {
+        font-family: var(--font-body);
+    }
+}

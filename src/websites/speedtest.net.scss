@@ -1,0 +1,9 @@
+@-moz-document domain("speedtest.net") {
+    .pure-g [class*="pure-u"],
+    body,
+    .definition-pure-button,
+    .pure-button,
+    a.pure-button {
+        font-family: var(--font-body);
+    }
+}

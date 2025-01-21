@@ -1,0 +1,86 @@
+:root {
+    --font-body: "Geist", sans-serif;
+    --font-mono: "Geist Mono", "GeistMono Nerd Font", monospace;
+    --font-heading: "Geist", sans-serif;
+}
+
+html,
+body,
+div,
+select,
+span,
+label,
+input,
+textfield,
+section,
+nav,
+a,
+ul,
+li,
+button,
+text,
+.month,
+.html,
+.body,
+.div,
+.span,
+.label,
+.button,
+.input,
+.textfield,
+.section,
+.nav,
+.a,
+.ul,
+.li,
+.widget,
+div.widget,
+div.widget span {
+    font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+title,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.title,
+h1.li {
+    font-family: var(--font-heading);
+}
+
+code,
+pre,
+samp,
+kbd,
+tt,
+.code,
+.pre,
+.samp,
+.kbd,
+.tt,
+code span,
+pre span,
+samp span,
+kbd span,
+tt span,
+code div,
+pre div,
+samp div,
+kbd div,
+tt div,
+.code span,
+.pre span,
+.samp span,
+.kbd span,
+.tt span {
+    font-family: var(--font-mono);
+}

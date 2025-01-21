@@ -1,0 +1,20 @@
+@-moz-document domain("modular.com") {
+    .blue-alert,
+    .desktoplabelRm,
+    body code,
+    body .alert code,
+    body kbd {
+        font-family: var(--font-mono);
+    }
+
+    .bodySmall,
+    .desktopH5,
+    h5,
+    p {
+        font-family: var(--font-body);
+    }
+
+    :root {
+        --cc-font-family: "Inter", "FiraCode Nerd", "Segoe UI", sans-serif;
+    }
+}

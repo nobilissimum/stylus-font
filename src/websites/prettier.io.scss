@@ -1,0 +1,6 @@
+@-moz-document domain("prettier.io") {
+    code[class*="language-"],
+    pre[class*="language-"] {
+        font-family: var(--font-mono);
+    }
+}

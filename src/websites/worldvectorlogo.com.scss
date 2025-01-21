@@ -1,0 +1,10 @@
+@-moz-document domain("worldvertorlogo.com") {
+    main
+        .search
+        .search_holder
+        div.search_position
+        .search_input_field
+        input[type="text"] {
+        font-family: var(--font-body);
+    }
+}

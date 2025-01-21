@@ -1,0 +1,8 @@
+@-moz-document domain("gov.ph") {
+    #main-nav li:not(.has-form) a:not(.button),
+    #main-nav li.active:not(.has-form) a:not(.button),
+    #aux-main li:not(.has-form) a:not(.button),
+    #aux-main li.active:not(.has-form) a:not(.button) {
+        font-family: var(--font-body);
+    }
+}

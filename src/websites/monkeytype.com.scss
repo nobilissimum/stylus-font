@@ -1,0 +1,9 @@
+@-moz-document domain("monkeytype.com") {
+    body,
+    div,
+    div.word,
+    div.word letter,
+    div.word letter {
+        font-family: var(--font-mono);
+    }
+}

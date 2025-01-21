@@ -1,0 +1,73 @@
+@-moz-document domain("medium.com"), domain("gitconnected.com") {
+    .al,
+    .ny,
+    .mi,
+    .nm {
+        font-family: var(--font-body);
+    }
+
+    .zn,
+    .zn span,
+    .oq,
+    pre br,
+    pre span,
+    pre .nm,
+    pre .nh,
+    pre .ni,
+    pre .fq,
+    pre .ne,
+    pre .b,
+    pre .bg,
+    pre .nj,
+    pre .nk,
+    pre .l,
+    pre .nl {
+        font-family: var(--font-mono);
+    }
+
+    h1.al,
+    h1.ny,
+    h1.li,
+    h2.al,
+    h2.be,
+    h2.ny,
+    h3.al,
+    h3.ny,
+    h4.al,
+    h4.ny,
+    h5.al,
+    h5.ny,
+    h6.al,
+    h7.ny,
+    strong.ex,
+    .mc,
+    .bf {
+        font-family: var(--font-heading);
+    }
+
+    @media only screen and (min-width: 1080px) {
+        .ns,
+        .abr {
+            font-size: 16px;
+        }
+    }
+
+    .be,
+    .aj,
+    .mu,
+    .no,
+    .ace {
+        font-family: var(--font-body);
+    }
+
+    h1.be,
+    h1.aj,
+    h1.mu,
+    h1.no,
+    h2.be,
+    h2.aj,
+    h2.mu,
+    h2.no {
+        font-family: var(--font-heading);
+    }
+}

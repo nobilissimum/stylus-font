@@ -1,0 +1,110 @@
+@-moz-document domain("codechef.com") {
+    .m-header-one,
+    .m-header-one *,
+    .MuiTypography-h1,
+    .MuiTypography-h2,
+    .MuiTypography-h3,
+    .MuiTypography-h4,
+    .MuiTypography-h5,
+    .MuiTypography-h6,
+    ._bannerTop_15r92_33
+        ._bannerTop__title_15r92_214
+        ._bannerTopTitle__text_15r92_235,
+    ._subHeadingContainer_1obyq_706 ._roadmapHeading_1obyq_702,
+    ._homeImageSection_1ms16_960
+        ._customListContainer_1ms16_977
+        ._listTitle_1ms16_1052
+        ._title_1ms16_309,
+    ._faq_1ms16_428 ._faq__title_1ms16_428 {
+        font-family: var(--font-heading);
+    }
+
+    .snackdown-container .inner .main p,
+    .snackdown-container .main .content ul li,
+    .snackdown-container .inner .main .well,
+    .l-footer *,
+    .global--announcement .global--announcement__content p,
+    ._m-header-one_1hqxc_3,
+    ._m-header-one_1hqxc_3 *,
+    .user-profile-container .content-area .user-details ul li label,
+    .user-profile-container .content-area .rating-data-section h3,
+    .user-profile-container
+        .content-area
+        .rating-data-section.problems-solved
+        > p,
+    .tabs.vertical .tab-title > a,
+    .vertical-tabs-container .user-avatar a,
+    ._runContainer_afrs9_41
+        ._execute-btn-container_afrs9_144
+        ._submit__btn_afrs9_209,
+    ._runContainer_afrs9_41
+        ._execute-btn-container_afrs9_144
+        ._next__problem-link_afrs9_168,
+    ._runContainer_afrs9_41
+        ._execute-btn-container_afrs9_144
+        ._compile__btn_afrs9_169,
+    ._runTab_afrs9_302,
+    ._learningContest__container_1ngal_1082 button,
+    ._mcq_1m9mg_2
+        ._runContainer_1m9mg_194
+        ._execute__btnContainer_1m9mg_223
+        ._next__problem-link_1m9mg_233,
+    ._mcq_1m9mg_2
+        ._runContainer_1m9mg_194
+        ._execute__btnContainer_1m9mg_223
+        ._submit__btn_1m9mg_272,
+    ._moduleSummary_1bhlq_2
+        ._runContainer_1bhlq_34
+        ._execute__btnContainer_1bhlq_63
+        ._submit__btn_1bhlq_74,
+    ._whatsappContainer_1f7bj_827 ._leftContainer_1f7bj_873,
+    ._bannerTop_15r92_33,
+    ._bannerTop_15r92_33 *,
+    ._bannerTop_15r92_33 ._discountLabel_15r92_258 ._labelText_15r92_313,
+    ._bannerTop_15r92_33 ._discountLabel_15r92_258 ._discountBadge_15r92_322,
+    ._proCard__container_1ms16_781
+        ._topCard_1ms16_825
+        ._title_1ms16_309
+        ._head_1ms16_267,
+    ._proCard__container_1ms16_781
+        ._topCard_1ms16_825
+        ._bill__details_1ms16_882,
+    ._premiumButton_15r92_405 ._premiumButton__text_15r92_433,
+    ._subHeadingContainer_1obyq_706 ._roadmapText_1obyq_702,
+    ._subHeadingContainer_1obyq_706 ._para_1obyq_225,
+    ._homeImageSection_1ms16_960
+        ._customListContainer_1ms16_977
+        ._listTitle_1ms16_1052
+        ._description_1ms16_1107,
+    ._roadMapTestimonial_1obyq_771
+        ._testimonialCardContainer_1obyq_849
+        ._testimonialCard_1obyq_849
+        ._textContainer_1obyq_864
+        ._text_1obyq_864,
+    ._testimonialCard_1ms16_61 ._textContainer_1ms16_72 ._text_1ms16_72,
+    p,
+    ._proCard__container_1ms16_781 ._topCard_1ms16_825 ._strikeColor_1ms16_873,
+    ._proCard__container_1ms16_781
+        ._saleRibbon_1ms16_794
+        ._offertext_1ms16_811 {
+        font-family: var(--font-body);
+    }
+
+    [class^="ace"],
+    [class^="ace"] div,
+    [class^="ace"] span,
+    .MuiInputBase-root,
+    ._languageDropdown__item_1jy8z_244,
+    ._problemBody_iu0mi_33 code,
+    ._problemBody_iu0mi_33 kbd,
+    ._problemBody_iu0mi_33 samp {
+        font-family: var(--font-mono);
+    }
+
+    .ace_text-layer,
+    div.ace_text-layer,
+    #submit-ide-v2 div,
+    #submit-ide-v2 span {
+        font-family: var(--font-mono) !important;
+    }
+}

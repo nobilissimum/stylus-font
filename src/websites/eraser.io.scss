@@ -1,0 +1,13 @@
+@-moz-document domain("eraser.io") {
+    .view-lines span,
+    .view-lines div,
+    .monaco-editor span,
+    .monaco-editor div,
+    .SyntaxModal_sample__wa36n .SyntaxModal_sampleCode__fnG8o span {
+        font-family: var(--font-mono);
+    }
+
+    .mtkz {
+        width: unset !important;
+    }
+}

@@ -1,0 +1,13 @@
+@-moz-document domain("stackoverflow.com") {
+    .s-prose,
+    .comment-copy,
+    .question-status,
+    .excerpt,
+    .s-post-summary--content .s-post-summary--content-title a {
+        font-family: var(--font-body);
+    }
+
+    .s-prose code {
+        font-family: var(--font-mono);
+    }
+}

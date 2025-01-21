@@ -1,0 +1,25 @@
+@-moz-document domain("datacamp.com") {
+    .css-hu6jey code,
+    div.view-lines.monaco-mouse-cursor-text span,
+    div.margin-view-overlays div {
+        font-family: var(--font-mono);
+    }
+
+    div.view-lines.monaco-mouse-cursor-text span,
+    div.margin-view-overlays div {
+        font-size: 0.95rem;
+    }
+
+    .css-ffxlcw,
+    .css-afwd2b,
+    .css-57lwy6,
+    .css-1c395s9 {
+        font-family: var(--font-body);
+    }
+
+    div[data-cy="console-editor"],
+    div[data-cy="console-editor"] div {
+        font-family: var(--font-mono);
+        font-size: 0.95rem;
+    }
+}
