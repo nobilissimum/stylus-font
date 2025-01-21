@@ -34,10 +34,10 @@ func saveToFile(params *SaveToFileParams) {
 		if _, err := params.output.Write(buf[:bytesNum]); err != nil {
 			log.Panicf("Unable to write to %v. %v", params.output.Name(), err.Error())
 		}
+	}
 
-		if _, err := params.output.WriteString("\n"); err != nil {
-			log.Panicf("Unable to write a blank line to %v. %v", params.output.Name(), err.Error())
-		}
+	if _, err := params.output.WriteString("\n"); err != nil {
+		log.Panicf("Unable to write a new line to %v. %v", params.output.Name(), err.Error())
 	}
 }
 
