@@ -14,6 +14,33 @@ const (
 
 var directories = []string{"extensions", "websites"}
 
+type SaveToFileParams struct {
+	input  *os.File
+	output *os.File
+}
+
+func saveToFile(params *SaveToFileParams) {
+	buf := make([]byte, 1024)
+	for true {
+		bytesNum, err := params.input.Read(buf)
+		if err != nil && err != io.EOF {
+			log.Panicf("Unable to read %v. %v", params.input.Name(), err.Error())
+		}
+
+		if bytesNum == 0 {
+			break
+		}
+
+		if _, err := params.output.Write(buf[:bytesNum]); err != nil {
+			log.Panicf("Unable to write to %v. %v", params.output.Name(), err.Error())
+		}
+
+		if _, err := params.output.WriteString("\n"); err != nil {
+			log.Panicf("Unable to write a blank line to %v. %v", params.output.Name(), err.Error())
+		}
+	}
+}
+
 func main() {
 	inputFilename := sourceDirectory + "/" + global
 	inputFile, err := os.Open(inputFilename)
@@ -36,25 +63,10 @@ func main() {
 		}
 	}()
 
-	buf := make([]byte, 1024)
-	for true {
-		bytesNum, err := inputFile.Read(buf)
-		if err != nil && err != io.EOF {
-			log.Panicf("Unable to read from input file. %v", err.Error())
-		}
-
-		if bytesNum == 0 {
-			break
-		}
-
-		if _, err := outputFile.Write(buf[:bytesNum]); err != nil {
-			log.Panicf("Unable to write to output file. %v", err.Error())
-		}
-
-		if _, err := outputFile.WriteString("\n"); err != nil {
-			log.Panicf("Unable to write a blank line to output file. %v", err.Error())
-		}
-	}
+	saveToFile(&SaveToFileParams{
+		input:  inputFile,
+		output: outputFile,
+	})
 
 	for _, directory := range directories {
 		directoryPath := sourceDirectory + "/" + directory
@@ -79,24 +91,10 @@ func main() {
 				}
 			}()
 
-			for true {
-				bytesNum, err := styleFile.Read(buf)
-				if err != nil && err != io.EOF {
-					log.Panicf("Unable to read %v. %v", styleFilename, err.Error())
-				}
-
-				if bytesNum == 0 {
-					break
-				}
-
-				if _, err := outputFile.Write(buf[:bytesNum]); err != nil {
-					log.Panicf("Unable to write %v to output file. %v", styleFilename, err.Error())
-				}
-
-				if _, err := outputFile.WriteString("\n"); err != nil {
-					log.Panicf("Unable to write a blank line to output file. %v", err.Error())
-				}
-			}
+			saveToFile(&SaveToFileParams{
+				input:  styleFile,
+				output: outputFile,
+			})
 		}
 	}
 }
