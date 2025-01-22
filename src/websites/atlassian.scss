@@ -1,4 +1,9 @@
 @-moz-document domain("atlassian.com"), domain("atlassian.net") {
+    :root,
+    html[data-theme~="typography\:typography-modernized"] {
+        --ds-font-family-body: var(--font-body);
+    }
+
     .css-1ckttv1,
     .css-mfjdp3,
     .css-1cab8vv,
@@ -65,7 +70,11 @@
     ._11c8o0gd,
     .css-2b8pny,
     .css-1nyeb6s [data-item-title],
-    .css-8mm3zb {
+    .css-8mm3zb,
+    .cc-1cdhdy5 p,
+    .PageContent,
+    body,
+    body.aui-layout {
         font-family: var(--font-body);
     }
 
