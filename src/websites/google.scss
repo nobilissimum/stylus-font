@@ -1,4 +1,16 @@
 @-moz-document domain("google.com"), domain("youtube.com") {
+    :root {
+        --mdc-typography-body2-font-family: var(--font-body);
+        --dt-title-medium-font: var(--font-body);
+        --dt-body-small-font: var(--font-body);
+        --dt-label-medium-font: var(--font-body);
+        --gm3-text-field-outlined-input-text-font: var(--font-body);
+        --gm3-button-outlined-label-text-font: var(--font-body);
+        --gm3-text-field-character-counter-supporting-text-font: var(
+            --font-body
+        );
+    }
+
     .m2 .freebirdCommonAnalyticsResponseSummaryChip,
     .m2 .freebirdCommonAnalyticsTextResponse,
     .m2 .freebirdAnalyticsViewQuestionTitle,
@@ -97,7 +109,19 @@
     .WK4gNc.MiXMWc .njhDLd,
     .Yb,
     #search-input.ytd-searchbox-spt input,
-    yt-chip-cloud-chip-renderer[modern] {
+    yt-chip-cloud-chip-renderer[modern],
+    .YMNIz::after,
+    .zeumMd,
+    body,
+    .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS,
+    .klw8Rb,
+    .ZvUowc,
+    .nMU0jc,
+    .If9fEc,
+    .KP8WDe,
+    .QyLBoe,
+    .BowpK,
+    .qdOxv-fmcmS-wGMbrd {
         font-family: var(--font-body);
     }
 
