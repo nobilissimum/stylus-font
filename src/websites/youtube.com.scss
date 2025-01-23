@@ -1,0 +1,12 @@
+@-moz-document domain("youtube.com") {
+    yt-chip-cloud-chip-renderer[modern]
+        #chip-container.yt-chip-cloud-chip-renderer,
+    .more-button.ytd-comment-view-model,
+    .less-button.ytd-comment-view-model,
+    ytd-guide-entry-renderer[is-header] .title.ytd-guide-entry-renderer,
+    ytd-guide-section-renderer[modern-typography]
+        #guide-section-title.ytd-guide-section-renderer,
+    yt-formatted-string.ytd-menu-service-item-download-renderer {
+        font-family: var(--font-body);
+    }
+}
