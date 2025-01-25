@@ -1,4 +1,10 @@
 @-moz-document domain("stackoverflow.com") {
+    :root,
+    html,
+    body {
+        --ff-mono: var(--font-mono);
+    }
+
     .s-prose,
     .comment-copy,
     .question-status,
