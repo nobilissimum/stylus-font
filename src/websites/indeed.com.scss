@@ -1,0 +1,9 @@
+@-moz-document domain("gov.ph") {
+    html body * {
+        font-family: var(--font-body) !important;
+    }
+
+    #gnav-main-container.gnav .css-p2fq43 {
+        font-family: var(--font-body);
+    }
+}
