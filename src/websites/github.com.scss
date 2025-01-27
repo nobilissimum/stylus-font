@@ -1,6 +1,9 @@
 @-moz-document domain("github.com") {
     :root {
         --fontStack-monospace: var(--font-mono);
+        --fontStack-sansSerif: var(--font-body);
+        --fontStack-sansSerifDisplay: var(--font-body);
+        --fontStack-system: var(--font-body);
     }
 
     .markdown-body code,
