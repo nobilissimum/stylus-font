@@ -6,7 +6,9 @@
     ytd-guide-entry-renderer[is-header] .title.ytd-guide-entry-renderer,
     ytd-guide-section-renderer[modern-typography]
         #guide-section-title.ytd-guide-section-renderer,
-    yt-formatted-string.ytd-menu-service-item-download-renderer {
+    yt-formatted-string.ytd-menu-service-item-download-renderer,
+    #simplebox-placeholder.ytd-comment-simplebox-renderer,
+    #vote-count-middle.ytd-comment-engagement-bar {
         font-family: var(--font-body);
     }
 }
