@@ -1,0 +1,15 @@
+@-moz-document domain("learnvim.com") {
+    .font-display,
+    .font-serif,
+    .font-sans {
+        font-family: var(--font-body);
+    }
+
+    .font-sans kbd,
+    .ͼ1 .cm-scroller,
+    .ͼ1 .cm-scroller div,
+    .cm-line span,
+    .cm-line div {
+        font-family: var(--font-mono);
+    }
+}
