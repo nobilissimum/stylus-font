@@ -1,4 +1,8 @@
 @-moz-document domain("github.com") {
+    :root {
+        --fontStack-monospace: var(--font-mono);
+    }
+
     .markdown-body code,
     .markdown-body tt,
     .branch-name,
@@ -10,7 +14,8 @@
     .react-code-text,
     .react-code-lines,
     .react-code-lines span,
-    .react-code-lines div {
+    .react-code-lines div,
+    code a {
         font-family: var(--font-mono);
     }
 
