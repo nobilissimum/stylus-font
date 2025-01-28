@@ -1,0 +1,67 @@
+@-moz-document domain("podman.io") {
+    :root {
+        --ifm-font-family-monospace: var(--font-mono);
+    }
+
+    :host,
+    :root,
+    :host > div {
+        --readthedocs-flyout-font-family: var(--font-body);
+    }
+
+    div.body h1,
+    div.body h2,
+    div.body h3,
+    div.body h4,
+    div.body h5,
+    div.body h6,
+    div.sphinxsidebar h3,
+    div.sphinxsidebar h4,
+    div.sphinxsidebar input,
+    body,
+    input,
+    dl > dd,
+    blockquote,
+    dd,
+    dl,
+    dt,
+    figcaption,
+    ol,
+    p {
+        font-family: var(--font-body);
+    }
+
+    .clean-btn,
+    .navbar__link,
+    .navbar__title {
+        font-size: 1rem;
+    }
+
+    a,
+    blockquote,
+    code,
+    dd,
+    dl,
+    dt,
+    figcaption,
+    ol,
+    p,
+    pre {
+        font-size: 1rem;
+    }
+
+    @media (min-width: 1024px) {
+        a,
+        blockquote,
+        code,
+        dd,
+        dl,
+        dt,
+        figcaption,
+        ol,
+        p,
+        pre {
+            font-size: 1rem;
+        }
+    }
+}
