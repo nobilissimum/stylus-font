@@ -1,12 +1,7 @@
 @-moz-document domain("codechef.com") {
     .m-header-one,
     .m-header-one *,
-    .MuiTypography-h1,
-    .MuiTypography-h2,
-    .MuiTypography-h3,
-    .MuiTypography-h4,
-    .MuiTypography-h5,
-    .MuiTypography-h6,
+    [class^="MuiTypography-"],
     ._bannerTop_15r92_33
         ._bannerTop__title_15r92_214
         ._bannerTopTitle__text_15r92_235,
