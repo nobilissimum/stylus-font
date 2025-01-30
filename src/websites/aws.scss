@@ -1,4 +1,9 @@
 @-moz-document domain("console.aws.amazon.com"), domain("awsapps.com") {
+    :root,
+    html {
+        --font-family-base-4om3hr: var(--font-body);
+    }
+
     .awsui_root_18wu0_sime4_93:not(#\9),
     td a.awsui_link_4c84z_1c97a_93,
     td a.awsui_variant-secondary_4c84z_1c97a_140,
@@ -48,8 +53,7 @@
         .logs__log-events-table--load-more-row
         div,
     ._link--cookie-preferences_m66i2_134,
-    .search-5219,
-    .search-5220 {
+    [class^="search-"] {
         font-family: var(--font-body) !important;
     }
 
