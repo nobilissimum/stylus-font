@@ -1,11 +1,4 @@
 @-moz-document domain("medium.com"), domain("gitconnected.com") {
-    .al,
-    .ny,
-    .mi,
-    .nm {
-        font-family: var(--font-body);
-    }
-
     .zn,
     .zn span,
     .oq,
@@ -23,6 +16,14 @@
     pre .l,
     pre .nl {
         font-family: var(--font-mono);
+    }
+
+    .al,
+    .ny,
+    .mi,
+    .nt,
+    .nm {
+        font-family: var(--font-body);
     }
 
     h1.al,
