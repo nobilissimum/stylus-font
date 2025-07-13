@@ -84,3 +84,10 @@ tt div,
 .tt span {
     font-family: var(--font-mono);
 }
+
+.monaco-scrollable-element div,
+.monaco-scrollable-element span,
+.editor-scrollable div,
+.editor-scrollable span {
+    font-family: var(--font-mono);
+}
